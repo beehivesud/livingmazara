@@ -5,7 +5,7 @@ export default function Home() {
     <div className="min-h-screen relative grid place-items-center p-10">
       {/* Wave background pinned to bottom, cover width */}
       <div className="pointer-events-none absolute inset-x-0 bottom-0 -z-10">
-        <div className="h-[40vh] sm:h-[45vh] md:h-[50vh] w-full bg-[url('/wave.svg')] bg-bottom bg-no-repeat bg-cover bg-[length:100%_100%] sm:bg-[length:100%_auto]" />
+        <div className="h-[40vh] sm:h-[45vh] md:h-[50vh] w-full bg-[url('/wave_phone.svg')] md:bg-[url('/wave_tablet.svg')] lg:bg-[url('/wave.svg')] bg-bottom bg-no-repeat bg-cover bg-[length:100%_100%] sm:bg-[length:100%_auto]" />
       </div>
 
       {/* Partner logo - positioned at top */}
