@@ -37,7 +37,7 @@ export default function Home() {
         
         {/* Text close to logo */}
         <p className="text-base sm:text-lg text-neutral-700 mt-1">
-          "Un progetto per dare nuova vita al complesso San Carlo Borromeo"
+          &quot;Un progetto per dare nuova vita al complesso San Carlo Borromeo&quot;
         </p>
       </main>
 
